@@ -14,7 +14,7 @@ const fs = require('fs');
 // console.log(fileData);
 
 /* rename the file */
-fs.renameSync('dev/bio.txt', 'dev/bio1.txt'); /* if you not give the full path in second parameter it will create a new file on root lavel */
+//fs.renameSync('dev/bio.txt', 'dev/bio1.txt'); /* if you not give the full path in second parameter it will create a new file on root lavel */
 
 /* delete the file */
 //fs.unlinkSync('dev/bio1.txt');
